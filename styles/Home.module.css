@@ -10,8 +10,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: url("/bongocat.png") no-repeat;
-  background-position: right bottom;
 }
 .menu {
   display: flex;
