@@ -34,7 +34,13 @@ const PokedexIsr = ({ pokemonsISR }) => {
       <h1 className={styles.title}>Welcome to Pokemons ISR </h1>
       <ul className={styles.listContainer}>
         {pokemonsISR.map((pokemonIsr) => (
-          <li key={pokemonIsr.id}>{pokemonIsr.name}</li>
+          <Link
+            href={`/pokedexISR/${pokemonIsr.id}`}
+            key={pokemonIsr.name}
+            passHref
+          >
+            <li key={pokemonIsr.id}>{pokemonIsr.name}</li>
+          </Link>
         ))}
       </ul>
     </>
