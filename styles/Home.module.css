@@ -13,9 +13,24 @@
   background: url("/bongocat.png") no-repeat;
   background-position: right bottom;
 }
+.menu {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+.menu li {
+  font-size: 30px;
+  margin-right: 30px;
+  margin-bottom: 50px;
+}
+.menu li:hover {
+  color: #ff1ca8;
+  font-weight: bold;
+}
 
 .title a {
   color: #ff1ca8;
+
   text-decoration: none;
 }
 
