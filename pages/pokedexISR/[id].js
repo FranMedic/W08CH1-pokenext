@@ -19,9 +19,9 @@ const PokedexIsrID = ({ pokemonsISR }) => {
         </li>
       </ul>
 
-      <h1>DETAILS ISR </h1>
+      <h1 className={styles.title}>DETAILS ISR </h1>
 
-      <h2>{pokemonsISR.name}</h2>
+      <h2 className={styles.details}>{pokemonsISR.name}</h2>
     </>
   );
 };

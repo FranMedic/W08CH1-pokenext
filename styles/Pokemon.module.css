@@ -18,3 +18,9 @@
 .listContainer {
   list-style: none;
 }
+.listContainer li {
+  color: blueviolet;
+}
+.details {
+  color: blueviolet;
+}
