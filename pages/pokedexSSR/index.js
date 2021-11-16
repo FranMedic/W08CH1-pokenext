@@ -43,7 +43,7 @@ const PokedexSsr = ({ pokemonsSSR }) => {
 
 export default PokedexSsr;
 
-export const getStaticProps = async () => {
+export const getServerSideProps = async () => {
   const response = await fetch("https://pokeapi-menchu.herokuapp.com/pokemon");
   const pokemonsSSR = await response.json();
 
