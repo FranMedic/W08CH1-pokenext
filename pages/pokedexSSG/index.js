@@ -34,7 +34,9 @@ const PokedexSsg = ({ pokemons }) => {
       <h1 className={styles.title}>Welcome to Pokemons SSG </h1>
       <ul className={styles.listContainer}>
         {pokemons.map((pokemon) => (
-          <li key={pokemon.id}>{pokemon.name}</li>
+          <Link href={`/pokedexSSG/${pokemon.id}`} key={pokemon.name} passHref>
+            <li key={pokemon.id}>{pokemon.name}</li>
+          </Link>
         ))}
       </ul>
     </>
