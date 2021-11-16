@@ -25,17 +25,17 @@ export default function Home() {
             </Link>
           </li>
           <li>
-            <Link href="/mypokedex-ssr">
+            <Link href="/pokedexSSR">
               <a>My Pokedex SSR</a>
             </Link>
           </li>
           <li>
-            <Link href="/mypokedex-ssg">
+            <Link href="/pokedexSSG">
               <a>My Pokedex SSG</a>
             </Link>
           </li>
           <li>
-            <Link href="/mypokedex-isr">
+            <Link href="/pokedexISR">
               <a>My Pokedex ISR</a>
             </Link>
           </li>
