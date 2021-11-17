@@ -8,7 +8,7 @@ const PokedexSsgID = ({ pokemonsSsg }) => {
   if (router.isFallback) {
     return <h1>Loading....</h1>;
   }
-  console.log(pokemonsSsg);
+
   return (
     <>
       <ul className={styles.menu}>

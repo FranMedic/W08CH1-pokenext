@@ -8,7 +8,7 @@ const PokedexIsrID = ({ pokemonsISR }) => {
   if (router.isFallback) {
     return <h1>Loading....</h1>;
   }
-  console.log(pokemonsISR);
+
   return (
     <>
       <ul className={styles.menu}>

@@ -34,7 +34,13 @@ const PokedexSsr = ({ pokemonsSSR }) => {
       <h1 className={styles.title}>Welcome to Pokemons SSR </h1>
       <ul className={styles.listContainer}>
         {pokemonsSSR.map((pokemonSSR) => (
-          <li key={pokemonSSR.id}>{pokemonSSR.name}</li>
+          <Link
+            href={`/pokedexSSR/${pokemonSSR.id}`}
+            key={pokemonSSR.name}
+            passHref
+          >
+            <li key={pokemonSSR.id}>{pokemonSSR.name}</li>
+          </Link>
         ))}
       </ul>
     </>
